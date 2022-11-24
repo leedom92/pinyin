@@ -1,0 +1,36 @@
+{
+  "name": "smiley-pinyin",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leedom92/smiley-pinyin.git"
+  },
+  "keywords": [
+    "smiley-sans",
+    "pinyin",
+    "vue"
+  ],
+  "author": "Leedom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leedom92/smiley-pinyin/issues"
+  },
+  "homepage": "https://github.com/leedom92/smiley-pinyin#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "pinyin": "3.0.0-alpha.4",
+    "vue": "^3.2.41"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "unocss": "^0.46.5",
+    "vite": "^3.2.3"
+  }
+}
