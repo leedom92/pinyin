@@ -24,6 +24,7 @@ const inputText = () => {
   <div class="mb-12">
     <PinYin :text="text" @clear="clearText" @input="inputText" />
   </div>
+
   <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
@@ -32,6 +33,7 @@ const inputText = () => {
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
+  
   <HelloWorld msg="Vite + Vue" />
 
   <a class="github inline-block mt-10" href="https://github.com/leedom92/pinyin" target="_blank" rel="noopener noreferrer">
