@@ -1,5 +1,5 @@
 {
-  "name": "smiley-pinyin",
+  "name": "pinyin",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -10,19 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leedom92/smiley-pinyin.git"
+    "url": "git+https://github.com/leedom92/pinyin.git"
   },
   "keywords": [
-    "smiley-sans",
+    "vue",
     "pinyin",
-    "vue"
+    "smiley-sans"
   ],
   "author": "Leedom",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/leedom92/smiley-pinyin/issues"
+    "url": "https://github.com/leedom92/pinyin/issues"
   },
-  "homepage": "https://github.com/leedom92/smiley-pinyin#readme",
+  "homepage": "https://github.com/leedom92/pinyin#readme",
   "dependencies": {
     "lodash": "^4.17.21",
     "pinyin": "3.0.0-alpha.4",

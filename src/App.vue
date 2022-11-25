@@ -34,7 +34,7 @@ const inputText = () => {
   </div>
   <HelloWorld msg="Vite + Vue" />
 
-  <a class="github block mt-10" href="https://github.com/leedom92/smiley-pinyin" target="_blank" rel="noopener noreferrer">
+  <a class="github block mt-10" href="https://github.com/leedom92/pinyin" target="_blank" rel="noopener noreferrer">
     <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true"
       class="github-svg">
       <path fill-rule="evenodd"
