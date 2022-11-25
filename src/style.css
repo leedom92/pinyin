@@ -1,3 +1,8 @@
+@font-face {
+  font-family: smiley-sans;
+  src: url(./assets/font/SmileySans-Oblique.otf.woff2);
+}
+
 :root {
   font-family: smiley-sans, Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
