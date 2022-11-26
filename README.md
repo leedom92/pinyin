@@ -2,8 +2,8 @@
 
 The toy is based on [pinyin](https://github.com/hotoo/pinyin).
 
-## 在线预览
-[戳这里](https://leedom.me/pinyin)
+## Preview
+[Click here](https://leedom.me/pinyin)
 
 ## Install
 ```sh
