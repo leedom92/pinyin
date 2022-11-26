@@ -1,6 +1,6 @@
 # ✍️ A Chinese Characters Toy. 一个汉字拼音小玩具。
 
-The toy is based on [pinyin](https://github.com/hotoo/pinyin), and fonts are [smiley-sans](https://github.com/atelier-anchor/smiley-sans) and [Nerko One](https://fonts.google.com/specimen/Nerko+One)
+The toy is based on [pinyin](https://github.com/hotoo/pinyin).
 
 ## 在线预览
 [戳这里](https://leedom.me/pinyin)
