@@ -1,8 +1,8 @@
 <template>
-  <div class="pinyin">
+  <div class="pinyin-chinese">
     <div v-if="text" class="cursor-pointer" @click="clearWord">
       <div class="item inline-block" :class="[text.length >= 5 ? 'px-0' : 'px-4']" v-for="item in text">
-        <div class="chinese text-xl sm:text-4xl mb-4">{{ pinyin(item)[0][0] }}</div>
+        <div class="pinyin text-xl sm:text-4xl mb-4">{{ pinyin(item)[0][0] }}</div>
         <div class="chinese text-red text-5xl sm:text-7xl">{{ item }}</div>
       </div>
     </div>
@@ -33,6 +33,8 @@ const inputWord = () => {
 }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+.pinyin-chinese :deep() {
+  font-family: 'smiley-sans';
+}
 </style>

@@ -21,6 +21,8 @@ defineProps({
   </h1>
 </template>
 
-<style scoped>
-
+<style lang="scss" scoped>
+.item {
+  font-family: 'smiley-sans';
+}
 </style>
