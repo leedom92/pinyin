@@ -12,7 +12,7 @@ defineProps({
     <div class="text-3xl pr-2">Evan You</div>
     <div class="text-lg">
       (
-        <div class="item relative inline-block w-5" v-for="item in '尤雨溪'">
+        <div class="item relative inline-block w-5 custom-font-family" v-for="item in '尤雨溪'">
           <div class="pinyin text-xs">{{ pinyin(item)[0][0] }}</div>
           <div class="chinese">{{ item }}</div>
         </div>
@@ -22,7 +22,4 @@ defineProps({
 </template>
 
 <style lang="scss" scoped>
-.item {
-  font-family: 'smiley-sans';
-}
 </style>

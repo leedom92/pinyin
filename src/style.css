@@ -17,6 +17,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
+.custom-font-family {
+  font-family: 'smiley-sans';
+}
+
 body {
   margin: 0;
   display: flex;
