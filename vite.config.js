@@ -14,6 +14,7 @@ export default defineConfig({
   resolve: {
     alias: [
       { find: 'pinyin', replacement: resolve('node_modules/pinyin/lib/pinyin-web.js') },
+      { find: '@', replacement: resolve('./src') }
     ]
   },
   base: './',

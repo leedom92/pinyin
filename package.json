@@ -26,7 +26,8 @@
   "dependencies": {
     "lodash": "^4.17.21",
     "pinyin": "3.0.0-alpha.4",
-    "vue": "^3.2.41"
+    "vue": "^3.2.41",
+    "vue-router": "4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.2.0",
