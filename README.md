@@ -3,7 +3,7 @@
 The toy is based on [pinyin](https://github.com/hotoo/pinyin).
 
 ## Preview
-[Click here](https://leedom.me/pinyin)
+[Click here](https://pinyin.leedom.me)
 
 ## Install
 ```sh
