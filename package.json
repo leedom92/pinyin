@@ -1,17 +1,8 @@
 {
   "name": "pinyin",
-  "private": true,
-  "version": "0.1.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/leedom92/pinyin.git"
-  },
+  "version": "0.2.0",
+  "private": true,
   "keywords": [
     "vue",
     "pinyin",
@@ -19,10 +10,20 @@
   ],
   "author": "Leedom",
   "license": "MIT",
+  "homepage": "https://github.com/leedom92/pinyin#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leedom92/pinyin.git"
+  },
   "bugs": {
     "url": "https://github.com/leedom92/pinyin/issues"
   },
-  "homepage": "https://github.com/leedom92/pinyin#readme",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint ."
+  },
   "dependencies": {
     "lodash": "^4.17.21",
     "pinyin": "3.0.0-alpha.4",
@@ -30,7 +31,9 @@
     "vue-router": "4"
   },
   "devDependencies": {
+    "@leedomjs/eslint-config": "^0.5.0",
     "@vitejs/plugin-vue": "^3.2.0",
+    "eslint": "^8.47.0",
     "sass": "^1.56.1",
     "unocss": "^0.46.5",
     "vite": "^3.2.3"

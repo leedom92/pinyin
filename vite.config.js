@@ -1,7 +1,7 @@
-import { resolve } from "path"
-import { defineConfig } from "vite";
-import vue from "@vitejs/plugin-vue";
-import Unocss from "unocss/vite";
+import { resolve } from 'path'
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+import Unocss from 'unocss/vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -14,14 +14,14 @@ export default defineConfig({
   resolve: {
     alias: [
       { find: 'pinyin', replacement: resolve('node_modules/pinyin/lib/pinyin-web.js') },
-      { find: '@', replacement: resolve('./src') }
-    ]
+      { find: '@', replacement: resolve('./src') },
+    ],
   },
   base: './',
   server: {
-    open: true
+    open: true,
   },
   esbuild: {
-    drop: ['console', 'debugger']
-  }
-});
+    drop: ['console', 'debugger'],
+  },
+})
