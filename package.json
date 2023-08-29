@@ -25,6 +25,12 @@
     "preview": "vite preview",
     "lint": "eslint ."
   },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "src/**/*.{js,vue}": "eslint --fix"
+  },
   "dependencies": {
     "lodash": "^4.17.21",
     "pinyin": "3.0.0-alpha.5",
@@ -35,7 +41,9 @@
     "@leedomjs/eslint-config": "^0.7.1",
     "@vitejs/plugin-vue": "^4.3.3",
     "eslint": "^8.48.0",
+    "lint-staged": "^14.0.1",
     "sass": "^1.66.1",
+    "simple-git-hooks": "^2.9.0",
     "unocss": "^0.55.3",
     "vite": "^4.4.9"
   }
